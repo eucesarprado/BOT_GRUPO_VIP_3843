@@ -70,7 +70,7 @@ client = TelegramClient("session", api_id, api_hash)
 
 # 🛰️ Canais VIP (apenas mídia, sem legenda)
 origens = [-1002368866066, -4686930379, -1002060060299]
-destino_id = -1002632937431
+destino_id = -1002678360646
 grouped_processados = set()
 
 @client.on(events.NewMessage(chats=origens))
