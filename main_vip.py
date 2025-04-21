@@ -66,7 +66,7 @@ def manter_online():
 # 🔐 API do Telegram
 api_id = int(os.environ.get("API_ID"))
 api_hash = os.environ.get("API_HASH")
-client = TelegramClient("session", api_id, api_hash)
+client = TelegramClient("session4", api_id, api_hash)
 
 # 🛰️ Canais VIP (apenas mídia, sem legenda)
 origens = [-1002368866066, -4686930379, -1002060060299]
